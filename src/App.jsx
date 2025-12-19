@@ -6,6 +6,7 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
+import Blog from "./sections/Blog";
 import Services from "./sections/Services";
 import Testimonials from "./sections/Testimonials";
 
@@ -21,7 +22,7 @@ export default function App() {
         <Projects />
         <Experience />
         <Testimonials />
-        {/* <Blog /> - Optional, if time permits or user requests */}
+        <Blog />
         <Contact />
       </main>
       <Footer />
